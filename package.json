@@ -1,0 +1,26 @@
+{
+    "name": "jhon-codes-theme",
+    "displayName": "jhon.codes",
+    "description": "Jhon Codes Theme",
+    "version": "0.0.1",
+    "publisher": "JhonCodes",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joaomarcoslp3/jhon-codes-theme"
+    },
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jhon Codes Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jhon Codes Theme-color-theme.json"
+            }
+        ]
+    }
+}
